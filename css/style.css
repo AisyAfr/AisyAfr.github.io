@@ -198,7 +198,7 @@ color: rgb(255, 166, 11);
 
 @media screen and (max-width: 768px) {
     .container-content{
-        margin-left: -12rem;
+        margin-left: -13rem;
     }
     .formarquee{
         margin-left: 7rem;
@@ -214,15 +214,11 @@ color: rgb(255, 166, 11);
     }
 }
 
-@media screen and(max-width:600px){
-    .container-content{
-        margin-left: -15rem;
-    }
-    nav{
-        width: max-content;
-    }
+@media screen and (max-width: 650px) {
+   nav{
+    width: 100%;
+   }
 }
-
 /* ========= end home ============= */
 
 /* ===========aboutme======== */
