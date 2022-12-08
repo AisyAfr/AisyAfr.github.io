@@ -214,6 +214,15 @@ color: rgb(255, 166, 11);
     }
 }
 
+@media screen and(max-width:600px){
+    .container-content{
+        margin-left: -15rem;
+    }
+    nav{
+        width: max-content;
+    }
+}
+
 /* ========= end home ============= */
 
 /* ===========aboutme======== */
