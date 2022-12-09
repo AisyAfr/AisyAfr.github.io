@@ -212,6 +212,9 @@ color: rgb(255, 166, 11);
     .formarquee{
         margin-left: 4rem;
     }
+    nav{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 375px) {
