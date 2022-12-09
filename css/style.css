@@ -214,11 +214,21 @@ color: rgb(255, 166, 11);
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 375px) {
    nav{
     width: 100%;
    }
 }
+@media screen and (max-width: 475px) {
+    nav{
+     width: 100%;
+    }
+ }
+ @media screen and (max-width: 320px) {
+    nav{
+     width: 100%;
+    }
+ }
 /* ========= end home ============= */
 
 /* ===========aboutme======== */
