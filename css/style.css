@@ -135,7 +135,7 @@ color: blueviolet;
 }
 
 .gambarsaya{
-    height: 10px;
+    height: 450px;
     padding-top: 50px;
     transition: all ease 400ms;
     background: none;
@@ -187,7 +187,7 @@ color: rgb(255, 166, 11);
 .formarquee{
     width: 100px;
     margin-left: 18rem;
-    margin-top: -1rem;
+    margin-top: -8rem;
     font-size: 25px;
 }
 
@@ -281,12 +281,16 @@ color: rgb(255, 166, 11);
     }
     .formarquee{
         margin-left: 70px;
+        margin-top: -2rem;
     }
     .logo{
         padding-left: 305px;
     }
     .sosmed{
         padding-left: 70px;
+    }
+    .gambarsaya{
+        height: 380px;
     }
  }
  @media screen and (max-width: 414px) {
@@ -310,7 +314,7 @@ color: rgb(255, 166, 11);
     }
     .formarquee{
         margin-left: 70px;
-        margin-top: 25rem;
+        margin-top: 5rem;
     }
     .logo{
         padding-left: 170px;
@@ -321,8 +325,8 @@ color: rgb(255, 166, 11);
     .container-content{
         display: block;
     }
-    img .gambarsaya{
-        padding-left: 5rem;
+    .gambarsaya{
+        padding-left: 2.7rem;
     }
  }
  @media screen and (max-width: 395px) {
@@ -334,7 +338,7 @@ color: rgb(255, 166, 11);
         margin: 20px;
     }
     .judulkecil{
-        padding-left: 115px;
+        padding-left: 130px;
     }
     .judulbesar{
         text-align: center;
@@ -345,20 +349,25 @@ color: rgb(255, 166, 11);
         text-align: center;
     }
     .formarquee{
-        margin-left: 70px;
-        margin-top: 25rem;
+        margin-left: 65px;
+        margin-top: 3rem;
     }
     .logo{
         padding-left: 160px;
     }
     .sosmed{
-        padding-left: 65px;
+        padding-left: 90px;
     }
     .container-content{
         display: block;
     }
-    img{
-        padding-left: 4rem;
+    .gambarsaya{
+        padding-left: 2rem;
+    }
+ }
+ @media screen and (max-width:375px) {
+    .sosmed{
+        padding-left: 85px;
     }
  }
  
@@ -371,7 +380,7 @@ color: rgb(255, 166, 11);
         margin: 10px;
     }
     .judulkecil{
-        padding-left: 100px;
+        padding-left: 120px;
     }
     .judulbesar{
         text-align: center;
@@ -383,13 +392,13 @@ color: rgb(255, 166, 11);
     }
     .formarquee{
         margin-left: 50px;
-        margin-top: 25rem;
+        margin-top: 3rem;
     }
     .logo{
-        padding-left: 160px;
+        padding-left: 170px;
     }
     .sosmed{
-        padding-left: 50px;
+        padding-left: 70px;
     }
     .container-content{
         display: block;
@@ -576,20 +585,47 @@ width: 250px;
             margin-left: 1rem;
         }
         }
+        @media screen and (max-width: 414px) {
+            .bungkusutama{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                padding-left: 1rem;
+            }
+            .card2,.card4{
+                margin-top:25px;
+                margin-bottom:1rem;
+                margin-left: 1rem;
+            }
+        }
         
             @media screen and (max-width: 395px) {
                 .bungkusutama{
-                    display: block;
-                    padding-left: 0.1px;
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                }
+                .card2,.card4{
+                    margin-top:25px;
+                    margin-bottom:1rem;
+                    margin-left: 1rem;
+                }
+            }
+            @media screen and (max-width: 765px) {
+                .bungkusutama{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    padding-left: 2px;
                 }
                 .card2,.card4{
                     margin-top:1rem;
                     margin-bottom:1rem;
                 }
                 }
+                
                 @media screen and (max-width: 365px) {
                     .bungkusutama{
-                        display: block;
+                        display: grid;
+                        grid-template-columns: repeat(1, 1fr);
+                        padding-left: 2px;
                     }
                     .card2,.card4{
                         margin-top:1rem;
@@ -656,14 +692,14 @@ transform: scale(1.5);
     }
     @media screen and (max-width: 394px) {
         .projectit-container{
-            margin-left: 4rem;
+            margin-left: 8.5rem;
             display: grid;
             grid-template-columns: repeat(2 ,1fr);
         }
         }
         @media screen and (max-width: 380px) {
             .projectit-container{
-                margin-left: 3.3rem;
+                margin-left: 9rem;
                 display: grid;
                 grid-template-columns: repeat(2 ,1fr);
             }
