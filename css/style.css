@@ -22,8 +22,7 @@ nav{
 }
 
 nav a{
-    padding-right:50px ;
-    margin-left: 50px;
+    margin: 0 30px;
     background:transparent;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -31,14 +30,19 @@ nav a{
 
 nav a:hover{
 color: rgb(255, 188, 5);
-transition: 0.7s;
-/* font-weight: 700; */
+transition: all ease 400ms;
+font-weight: 700;
 cursor: pointer;
-letter-spacing: 10px;
 }
 
 body{
     margin-bottom: 2rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 /* ========== home ============ */
@@ -188,48 +192,210 @@ color: rgb(255, 166, 11);
 }
 
 @media screen and (max-width: 912px) {
-    .container-content{
-        margin-left: -7rem;
+    .judulbesar{
+        padding-left: 60px;
+    }
+    .judulkecil{
+        padding-left: 170px;
+    }
+    .tekstambah{
+        padding-left: 150px;
     }
     .formarquee{
-        margin-left: 12rem;
+        margin-left: 3rem;
+        margin-top:1px;
+    }
+    nav{
+        width: 88vh;
+    }
+    .sosmed{
+        padding-left: 130px;
+    }
+    .logo{
+        padding-left: 300px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container-content{
-        margin-left: -13rem;
+    .judulbesar{
+        padding-left: 60px;
+    }
+    .judulkecil{
+        padding-left: 60px;
+    }
+    .tekstambah{
+        padding-left: 60px;
     }
     .formarquee{
-        margin-left: 7rem;
+        margin-left: 3rem;
+        margin-top:1px;
+    }
+    nav{
+        margin-left: 0px;
+    }
+    .sosmed{
+        padding-left: 60px;
+    }
+    .logo{
+        padding-left: 300px;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .container-content{
-        margin-left: -15rem;
-    }
-    .formarquee{
-        margin-left: 4rem;
-    }
+
+ @media screen and (max-width: 1024px) {
     nav{
+        margin-left: 150px;
         max-width: 100%;
     }
-}
-
-@media screen and (max-width: 375px) {
-   nav{
-    width: 100%;
-   }
-}
-@media screen and (max-width: 475px) {
-    nav{
-     width: 100%;
+    .judulkecil{
+        padding-left: 180px;
+    }
+    .judulbesar{
+        padding-left: 170px;
+    }
+    .tekstambah{
+        padding-left: 170px;
+    }
+    .formarquee{
+        margin-left: 170px;
+    }
+    .logo{
+        padding-left: 450px;
+    }
+    .sosmed{
+        padding-left: 170px;
     }
  }
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 688px) {
     nav{
-     width: 100%;
+       margin-left: 0px;
+    }
+    .judulkecil{
+        padding-left: 70px;
+    }
+    .judulbesar{
+        padding-left: 70px;
+    }
+    .tekstambah{
+        padding-left: 70px;
+    }
+    .formarquee{
+        margin-left: 70px;
+    }
+    .logo{
+        padding-left: 305px;
+    }
+    .sosmed{
+        padding-left: 70px;
+    }
+ }
+ @media screen and (max-width: 414px) {
+    nav{
+       max-width: 100%;
+       padding-left: 25px;
+    }
+    nav a{
+        margin: 20px;
+    }
+    .judulkecil{
+        padding-left: 140px;
+    }
+    .judulbesar{
+        text-align: center;
+        padding-left: 7px;
+    }
+    .tekstambah{
+        padding-left: 15px;
+        text-align: center;
+    }
+    .formarquee{
+        margin-left: 70px;
+        margin-top: 25rem;
+    }
+    .logo{
+        padding-left: 170px;
+    }
+    .sosmed{
+        padding-left: 90px;
+    }
+    .container-content{
+        display: block;
+    }
+    img .gambarsaya{
+        padding-left: 5rem;
+    }
+ }
+ @media screen and (max-width: 395px) {
+    nav{
+       max-width: 372px;
+       padding-left: 20px;
+    }
+    nav a{
+        margin: 20px;
+    }
+    .judulkecil{
+        padding-left: 115px;
+    }
+    .judulbesar{
+        text-align: center;
+        padding-left: 6px;
+    }
+    .tekstambah{
+        padding-left: 15px;
+        text-align: center;
+    }
+    .formarquee{
+        margin-left: 70px;
+        margin-top: 25rem;
+    }
+    .logo{
+        padding-left: 160px;
+    }
+    .sosmed{
+        padding-left: 65px;
+    }
+    .container-content{
+        display: block;
+    }
+    img{
+        padding-left: 4rem;
+    }
+ }
+ 
+ @media screen and (max-width: 360px) {
+    nav{
+       max-width: 323px;
+       padding-left: 35px;
+    }
+    nav a{
+        margin: 10px;
+    }
+    .judulkecil{
+        padding-left: 100px;
+    }
+    .judulbesar{
+        text-align: center;
+        padding-left: 6px;
+    }
+    .tekstambah{
+        padding-left: 15px;
+        text-align: center;
+    }
+    .formarquee{
+        margin-left: 50px;
+        margin-top: 25rem;
+    }
+    .logo{
+        padding-left: 160px;
+    }
+    .sosmed{
+        padding-left: 50px;
+    }
+    .container-content{
+        display: block;
+    }
+    img{
+        padding-left: 3rem;
     }
  }
 /* ========= end home ============= */
@@ -367,14 +533,6 @@ width: 250px;
         margin-left: 10rem;
     }
 
-    nav{
-        margin-left: 100px;
-    }
-
-    .logo{
-        padding-left: 410px;
-    }
-
     .card4{
         margin-left: -5rem;
     }
@@ -385,14 +543,8 @@ width: 250px;
 }
     
 @media screen and (max-width: 768px) {
-nav{
-    margin-left: 33px;
-}
 .bungkusutama{
     margin-left: 7rem;
-}
-.logo{
-    padding-left: 350px;
 }
 .card4{
     margin-left: -3rem;
@@ -402,26 +554,49 @@ nav{
     margin-left:-3rem;
 }
 }
-
-@media screen and (max-width: 480px) {
-nav{
-    margin-left: initial;
-}
-.bungkusutama{
-    margin-left: 5rem;
-}
-.logo{
-    padding-left: 320px;
-}
-
-.card4{
-    margin-left: 2rem;
-}
-
-.card2{
-    margin-left: 2rem;
-}
+@media screen and (max-width: 1024px) {
+    .bungkusutama{
+        margin-left: 11rem;
     }
+    .card4,.card2{
+        margin-left: -4rem;
+    }
+    .logodua{
+        padding-left: 0px;
+    }
+    }
+    @media screen and (max-width: 688px) {
+        .bungkusutama{
+            margin-left: 3rem;
+        }
+        .card4,.card2{
+            margin-left: -1rem;
+        }
+        .card1,.card3{
+            margin-left: 1rem;
+        }
+        }
+        
+            @media screen and (max-width: 395px) {
+                .bungkusutama{
+                    display: block;
+                    padding-left: 0.1px;
+                }
+                .card2,.card4{
+                    margin-top:1rem;
+                    margin-bottom:1rem;
+                }
+                }
+                @media screen and (max-width: 365px) {
+                    .bungkusutama{
+                        display: block;
+                    }
+                    .card2,.card4{
+                        margin-top:1rem;
+                        margin-bottom:1rem;
+                    }
+                    }
+
 /* ============ end about me ========= */
 
 
@@ -467,7 +642,39 @@ transform: scale(1.5);
 }
 
 /* =====end project it==== */
-
+@media screen and (max-width: 1025px) {
+    .projectit-container{
+        margin-left: 10rem;
+    }
+    }
+@media screen and (max-width: 414px) {
+    .projectit-container{
+        margin-left: 10rem;
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
+    }
+    @media screen and (max-width: 394px) {
+        .projectit-container{
+            margin-left: 4rem;
+            display: grid;
+            grid-template-columns: repeat(2 ,1fr);
+        }
+        }
+        @media screen and (max-width: 380px) {
+            .projectit-container{
+                margin-left: 3.3rem;
+                display: grid;
+                grid-template-columns: repeat(2 ,1fr);
+            }
+            }
+            @media screen and (max-width: 360px) {
+                .projectit-container{
+                    margin-left: 4.3rem;
+                    display: grid;
+                    grid-template-columns: repeat(2 ,1fr);
+                }
+                }
 /* ======== project diniyyah ====== */
 
 .projectdiniyyah-container{
@@ -503,7 +710,39 @@ transform: scale(1.5);
 }
 
 /* =======end project diniyyah ====== */
-
+@media screen and (max-width: 1025px) {
+    .projectdiniyyah-container{
+        margin-left: 10rem;
+    }
+    }
+@media screen and (max-width: 414px) {
+    .projectdiniyyah-container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        margin-left: 10rem;
+    }
+    }
+    @media screen and (max-width: 394px) {
+        .projectdiniyyah-container{
+            margin-left: 4rem;
+            display: grid;
+            grid-template-columns: repeat(2 ,1fr);
+        }
+        }
+        @media screen and (max-width: 380px) {
+            .projectdiniyyah-container{
+                margin-left: 3.3rem;
+                display: grid;
+                grid-template-columns: repeat(2 ,1fr);
+            }
+            }
+            @media screen and (max-width: 360px) {
+                .projectdiniyyah-container{
+                    margin-left: 4.3rem;
+                    display: grid;
+                    grid-template-columns: repeat(2 ,1fr);
+                }
+                }
 /* ========== monday competition ======== */
 .mondaycompetition-container{
     display: grid;
@@ -538,7 +777,39 @@ transform: scale(1.5);
 }
 
 /* ====== end monday competition ====== */
-
+@media screen and (max-width: 1025px) {
+    .mondaycompetition-container{
+        margin-left: 10rem;
+    }
+    }
+@media screen and (max-width: 414px) {
+    .mondaycompetition-container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        margin-left: 10rem;
+    }
+    }
+    @media screen and (max-width: 394px) {
+        .mondaycompetition-container{
+            margin-left: 4rem;
+            display: grid;
+            grid-template-columns: repeat(2 ,1fr);
+        }
+        }
+        @media screen and (max-width: 380px) {
+            .mondyacompetition-container{
+                margin-left: 3.3rem;
+                display: grid;
+                grid-template-columns: repeat(2 ,1fr);
+            }
+            }
+            @media screen and (max-width: 360px) {
+                .mondaycompetition-container{
+                    margin-left: 4.3rem;
+                    display: grid;
+                    grid-template-columns: repeat(2 ,1fr);
+                }
+                }
 /* ======= iseng iseng ===== */
 .isengiseng-container{
     display: grid;
@@ -572,7 +843,11 @@ transform: scale(1.5);
  transform: scale(1.5);
  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.2);
 }
-
+@media screen and (max-width: 1025px) {
+    .isengiseng-container{
+        margin-left: 15rem;
+    }
+    }
 @media screen and (max-width: 912px) {
     .kingplastic{
         margin-left: -5rem;
@@ -619,31 +894,37 @@ transform: scale(1.5);
     }
 
     .isengiseng-container{
-        margin-left: 270px;
+        margin-left: 160px;
     }
-}
-
-@media screen and (max-width: 480px) {
-    .kingplastic{
-        margin-left: -5rem;
-    }
-    .projectit h1{
-        margin-left: 21rem;
-    }
-
-    .projectdiniyyah h1{
-        margin-left:21rem;
-    }
-
-    .mondaycompetition h1{
-        margin-left: 21rem;
-    }
-
-    .isengiseng h1{
-        margin-left: 21rem;
-    }
-
+};
+@media screen and (max-width: 420px) {
     .isengiseng-container{
-        margin-left: 280px;
+        margin-left: 160px;
     }
-}
+    }
+    @media screen and (max-width: 394px) {
+        .isengiseng-container{
+            margin-left: 2rem;
+            display: grid;
+            grid-template-columns: repeat(2 ,1fr);
+        }
+        }
+        @media screen and (max-width: 380px) {
+            .isengiseng-container{
+                padding-left: 0%;
+                margin-left: 3.3rem;
+                display: grid;
+                grid-template-columns: repeat(2 ,1fr);
+            }
+            }
+            @media screen and (max-width: 360px) {
+                .isengiseng-container{
+                    margin-left: 4.3rem;
+                    display: grid;
+                    grid-template-columns: repeat(2 ,1fr);
+                }
+                }
+
+
+
+
