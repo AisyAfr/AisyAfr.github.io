@@ -442,7 +442,7 @@ color: rgb(255, 166, 11);
 }
 
 .card1:hover{
-rotate: 20deg;
+rotate: 9deg;
 font-size: larger;
 color: palevioletred;
 width: 250px;
@@ -471,7 +471,7 @@ width: 250px;
     font-weight: 600;
 }
 .card2:hover{
-    rotate: 20deg;
+    rotate: 9deg;
     font-size: larger;
     color: orange;
     width: 250px;
@@ -499,7 +499,7 @@ width: 250px;
     font-weight: 600;
 }
 .card3:hover{
-    rotate: 20deg;
+    rotate: 9deg;
     font-size: larger;
     color: greenyellow;
     width: 250px;
@@ -529,7 +529,7 @@ width: 250px;
 }
 
 .card4:hover{
-    rotate: 20deg;
+    rotate: 9deg;
     font-size: larger;
     color: royalblue;
     width: 250px;
@@ -742,23 +742,23 @@ transform: scale(1.5);
         margin-left: 10rem;
     }
     }
-    @media screen and (max-width: 394px) {
+    @media screen and (max-width: 395px) {
         .projectdiniyyah-container{
-            margin-left: 4rem;
+            margin-left: 9rem;
             display: grid;
             grid-template-columns: repeat(2 ,1fr);
         }
         }
         @media screen and (max-width: 380px) {
             .projectdiniyyah-container{
-                margin-left: 3.3rem;
+                margin-left: 9rem;
                 display: grid;
                 grid-template-columns: repeat(2 ,1fr);
             }
             }
             @media screen and (max-width: 360px) {
                 .projectdiniyyah-container{
-                    margin-left: 4.3rem;
+                    margin-left: 4rem;
                     display: grid;
                     grid-template-columns: repeat(2 ,1fr);
                 }
