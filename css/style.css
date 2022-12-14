@@ -811,7 +811,7 @@ transform: scale(1.5);
     }
     @media screen and (max-width: 394px) {
         .mondaycompetition-container{
-            margin-left: 4rem;
+            margin-left: 9rem;
             display: grid;
             grid-template-columns: repeat(2 ,1fr);
         }
