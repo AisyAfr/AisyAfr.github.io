@@ -295,7 +295,7 @@ color: rgb(255, 166, 11);
  }
  @media screen and (max-width: 414px) {
     nav{
-       max-width: 100%;
+       max-width: 387px;
        padding-left: 25px;
     }
     nav a{
@@ -329,6 +329,11 @@ color: rgb(255, 166, 11);
         padding-left: 2.7rem;
     }
  }
+ @media screen and (max-width: 412px){
+    nav{
+        max-width: 385px;
+    }
+ } 
  @media screen and (max-width: 395px) {
     nav{
        max-width: 372px;
@@ -364,13 +369,15 @@ color: rgb(255, 166, 11);
     .gambarsaya{
         padding-left: 2rem;
     }
+    @media screen and (max-width:380px) {
+        nav{
+            max-width: 353px; 
+        }
+        .sosmed{
+            padding-left: 85px;
+        }
+     }
  }
- @media screen and (max-width:375px) {
-    .sosmed{
-        padding-left: 85px;
-    }
- }
- 
  @media screen and (max-width: 360px) {
     nav{
        max-width: 323px;
