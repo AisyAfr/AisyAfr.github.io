@@ -3,30 +3,82 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #FCFFB2;
 }
 
-nav{
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    margin-top:40px;
-    margin-left: 270px;
-    width: 700px;
-    height: 3%;
-    font-family: 'Montserrat';
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px; /* Spasi internal */
+    font-family: Clash Display;
+  }
+  
+  nav a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: #CB35D8; /* Warna teks */
+    margin-right: 80px; /* Spasi antara tautan */
+  }
+  
+  
+  .portofolio{
+    position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex; 
+  }  
+
+  .portofolio span {
+    color: #FF55BB;
+    font-size: 21.75px;
+    font-family: 'Clash Display', sans-serif;
+    word-wrap: break-word;
+  }
+  
+  .portofolio span:first-child {
+    font-weight: 300;
+    margin-right: 5px; /* Menambahkan spasi antara dua span */
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh; /* Menentukan tinggi sesuai dengan tinggi viewport */
+  }
+  
+  .text-center {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    transition: all 400ms ease;
-    border: 1px solid black;
-}
+  }
+  
+  .hi-there {
+    color: #FF55BB;
+    font-size: 130px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+    line-height: 1;
+  }
+  
+  .enjoy {
+    color: #FF55BB;
+    font-size: 130px; /* Ubah ukuran sesuai kebutuhan */
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
 
-nav a{
-    margin: 0 30px;
-    background:transparent;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
+  .letsgo{
+    color: white;
+font-size: 20px;
+font-family: Clash Display;
+font-weight: 500;
+word-wrap: break-word;
+background-color:#CB35D8;
+padding: 20px;
+border: none;
+margin-top: 30px;
+  }
 
 nav a:hover{
 color: rgb(255, 188, 5);
